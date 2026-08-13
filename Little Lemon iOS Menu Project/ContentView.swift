@@ -1,0 +1,24 @@
+//
+//  ContentView.swift
+//  Little Lemon iOS Menu Project
+//
+//  Created by hicham fakir on 13/8/2026.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}
